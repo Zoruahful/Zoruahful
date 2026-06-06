@@ -1,0 +1,97 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Joshua Acevedo profile banner</title>
+  <desc id="desc">Animated Matrix-inspired graphite and lime banner for a software engineering profile.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#101014"/>
+      <stop offset="0.48" stop-color="#18181B"/>
+      <stop offset="1" stop-color="#0B130F"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A3E635" stop-opacity="0"/>
+      <stop offset="0.52" stop-color="#A3E635" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#A3E635" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.64 0 0 0 0 0.9 0 0 0 0 0.21 0 0 0 0.85 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .mono { font-family: "SFMono-Regular", "Cascadia Code", "Liberation Mono", Consolas, monospace; }
+      .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .rain { opacity: 0.22; fill: #A3E635; }
+      .rain-a { animation: rainA 10s linear infinite; }
+      .rain-b { animation: rainB 13s linear infinite; }
+      .rain-c { animation: rainC 16s linear infinite; }
+      .pulse { animation: pulse 3.8s ease-in-out infinite; }
+      .scanline { animation: scanline 5.8s linear infinite; }
+      @keyframes rainA { from { transform: translateY(-360px); } to { transform: translateY(360px); } }
+      @keyframes rainB { from { transform: translateY(-440px); } to { transform: translateY(320px); } }
+      @keyframes rainC { from { transform: translateY(-300px); } to { transform: translateY(420px); } }
+      @keyframes pulse { 0%, 100% { opacity: 0.52; } 50% { opacity: 0.9; } }
+      @keyframes scanline { from { transform: translateY(-340px); } to { transform: translateY(340px); } }
+      @media (prefers-reduced-motion: reduce) {
+        .rain-a, .rain-b, .rain-c, .pulse, .scanline { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="320" rx="22" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="318" rx="21" stroke="#A3E635" stroke-opacity="0.3"/>
+  <path d="M0 246H1200" stroke="#A3E635" stroke-opacity="0.12"/>
+  <path d="M0 90H1200" stroke="#F4F4F5" stroke-opacity="0.06"/>
+
+  <g opacity="0.36">
+    <path d="M80 0V320M180 0V320M280 0V320M380 0V320M480 0V320M580 0V320M680 0V320M780 0V320M880 0V320M980 0V320M1080 0V320" stroke="#F4F4F5" stroke-opacity="0.035"/>
+    <path d="M0 40H1200M0 120H1200M0 200H1200M0 280H1200" stroke="#F4F4F5" stroke-opacity="0.035"/>
+  </g>
+
+  <g class="mono rain">
+    <g class="rain-a">
+      <text x="36" y="20" font-size="18">0 1 0 1</text>
+      <text x="92" y="82" font-size="15">JS CSS</text>
+      <text x="146" y="154" font-size="18">1 0 1 0</text>
+      <text x="1016" y="28" font-size="18">UI DOM</text>
+      <text x="1112" y="120" font-size="15">0 1 1</text>
+    </g>
+    <g class="rain-b">
+      <text x="210" y="30" font-size="16">HTML</text>
+      <text x="310" y="116" font-size="19">1 0 0 1</text>
+      <text x="744" y="44" font-size="17">REACT</text>
+      <text x="840" y="172" font-size="14">STATE</text>
+      <text x="1088" y="224" font-size="17">CSS</text>
+    </g>
+    <g class="rain-c">
+      <text x="74" y="246" font-size="17">01010</text>
+      <text x="512" y="36" font-size="15">TYPES</text>
+      <text x="632" y="136" font-size="18">0 1 1 0</text>
+      <text x="936" y="88" font-size="16">VITE</text>
+      <text x="1034" y="278" font-size="18">10101</text>
+    </g>
+  </g>
+
+  <rect class="scanline" y="-60" width="1200" height="90" fill="url(#scan)"/>
+
+  <g filter="url(#softGlow)">
+    <path d="M78 270H585" stroke="#A3E635" stroke-width="2.4" stroke-linecap="round" opacity="0.78"/>
+    <path d="M826 270H1116" stroke="#38BDF8" stroke-width="2.2" stroke-linecap="round" opacity="0.34"/>
+  </g>
+
+  <g transform="translate(76 0)">
+    <text class="sans" x="0" y="158" fill="#F4F4F5" font-size="78" font-weight="850" letter-spacing="0">Joshua Acevedo</text>
+    <text class="sans" x="5" y="214" fill="#A3E635" font-size="32" font-weight="750">Software Engineer | Game Developer</text>
+  </g>
+
+  <g transform="translate(906 87)" class="mono">
+    <rect x="0" y="0" width="248" height="146" rx="14" fill="#0E0E10" fill-opacity="0.76" stroke="#A3E635" stroke-opacity="0.3"/>
+    <circle class="pulse" cx="26" cy="32" r="6" fill="#A3E635"/>
+    <text x="48" y="38" font-size="16" font-weight="700" fill="#F4F4F5">portfolio.build()</text>
+    <text x="26" y="78" font-size="15" font-weight="700" fill="#A3E635">status: portfolio</text>
+    <text x="26" y="108" font-size="15" font-weight="700" fill="#D4D4D8">focus: software</text>
+    <text x="26" y="136" font-size="15" font-weight="700" fill="#38BDF8">mode: interactive</text>
+  </g>
+</svg>
