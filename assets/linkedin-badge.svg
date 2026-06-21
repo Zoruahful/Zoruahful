@@ -1,0 +1,8 @@
+<svg width="116" height="28" viewBox="0 0 116 28" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">LinkedIn badge</title>
+  <desc id="desc">Themed LinkedIn profile link badge.</desc>
+  <rect x="0.5" y="0.5" width="115" height="27" rx="3.5" fill="#18181B" stroke="#38BDF8"/>
+  <rect x="8" y="6" width="17" height="16" rx="2" fill="#A3E635"/>
+  <text x="16.5" y="18" text-anchor="middle" fill="#18181B" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="900">in</text>
+  <text x="36" y="18" fill="#F4F4F5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="800">LinkedIn</text>
+</svg>

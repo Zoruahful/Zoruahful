@@ -4,10 +4,10 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/zoruahful/">
-    <img src="https://img.shields.io/badge/LinkedIn-18181B?style=flat-square&logo=linkedin&logoColor=A3E635&labelColor=27272A" alt="LinkedIn" />
+    <img src="assets/linkedin-badge.svg" alt="LinkedIn" />
   </a>
   <a href="https://github.com/Zoruahful">
-    <img src="https://img.shields.io/badge/GitHub-18181B?style=flat-square&logo=github&logoColor=A3E635&labelColor=27272A" alt="GitHub" />
+    <img src="assets/github-badge.svg" alt="GitHub" />
   </a>
 </p>
 

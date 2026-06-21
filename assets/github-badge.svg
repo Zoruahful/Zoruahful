@@ -1,0 +1,8 @@
+<svg width="104" height="28" viewBox="0 0 104 28" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub badge</title>
+  <desc id="desc">Themed GitHub profile link badge.</desc>
+  <rect x="0.5" y="0.5" width="103" height="27" rx="3.5" fill="#18181B" stroke="#38BDF8"/>
+  <circle cx="16" cy="14" r="8" fill="#A3E635"/>
+  <text x="16" y="18" text-anchor="middle" fill="#18181B" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="900">GH</text>
+  <text x="34" y="18" fill="#F4F4F5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="800">GitHub</text>
+</svg>
