@@ -53,17 +53,17 @@
   <g class="mono rain">
     <g class="rain-a">
       <text x="36" y="20" font-size="18">0 1 0 1</text>
-      <text x="92" y="82" font-size="15">JS CSS</text>
+      <text x="92" y="82" font-size="15">C++ UE</text>
       <text x="146" y="154" font-size="18">1 0 1 0</text>
-      <text x="1016" y="28" font-size="18">UI DOM</text>
+      <text x="1016" y="28" font-size="18">HUD UI</text>
       <text x="1112" y="120" font-size="15">0 1 1</text>
     </g>
     <g class="rain-b">
-      <text x="210" y="30" font-size="16">HTML</text>
+      <text x="210" y="30" font-size="16">TOOLS</text>
       <text x="310" y="116" font-size="19">1 0 0 1</text>
       <text x="744" y="44" font-size="17">REACT</text>
       <text x="840" y="172" font-size="14">STATE</text>
-      <text x="1088" y="224" font-size="17">CSS</text>
+      <text x="1088" y="224" font-size="17">JSON</text>
     </g>
     <g class="rain-c">
       <text x="74" y="246" font-size="17">01010</text>
@@ -83,7 +83,7 @@
 
   <g transform="translate(76 0)">
     <text class="sans" x="0" y="158" fill="#F4F4F5" font-size="78" font-weight="850" letter-spacing="0">Joshua Acevedo</text>
-    <text class="sans" x="5" y="214" fill="#A3E635" font-size="32" font-weight="750">Software Engineer | Game Developer</text>
+    <text class="sans" x="5" y="214" fill="#A3E635" font-size="32" font-weight="750">Software Engineer | Gameplay Programmer</text>
   </g>
 
   <g transform="translate(906 87)" class="mono">
@@ -91,7 +91,7 @@
     <circle class="pulse" cx="26" cy="32" r="6" fill="#A3E635"/>
     <text x="48" y="38" font-size="16" font-weight="700" fill="#F4F4F5">portfolio.build()</text>
     <text x="26" y="78" font-size="15" font-weight="700" fill="#A3E635">status: portfolio</text>
-    <text x="26" y="108" font-size="15" font-weight="700" fill="#D4D4D8">focus: software</text>
+    <text x="26" y="108" font-size="15" font-weight="700" fill="#D4D4D8">focus: systems</text>
     <text x="26" y="136" font-size="15" font-weight="700" fill="#38BDF8">mode: interactive</text>
   </g>
 </svg>
