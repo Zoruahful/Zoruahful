@@ -1,6 +1,6 @@
 <svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Joshua Acevedo profile banner</title>
-  <desc id="desc">Animated Matrix-inspired graphite and lime banner for a software engineering profile.</desc>
+  <desc id="desc">Animated Matrix-inspired graphite and lime banner for a software engineer and game engineer profile.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#101014"/>
@@ -83,7 +83,7 @@
 
   <g transform="translate(76 0)">
     <text class="sans" x="0" y="158" fill="#F4F4F5" font-size="78" font-weight="850" letter-spacing="0">Joshua Acevedo</text>
-    <text class="sans" x="5" y="214" fill="#A3E635" font-size="32" font-weight="750">Software Engineer | Gameplay Programmer</text>
+    <text class="sans" x="5" y="214" fill="#A3E635" font-size="32" font-weight="750">Software Engineer | Game Engineer</text>
   </g>
 
   <g transform="translate(906 87)" class="mono">
